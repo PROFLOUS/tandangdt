@@ -1,0 +1,28 @@
+// Bài 2: Nh?p vào s? nguyên n, ki?m tra s? dó ch?n hay l?, âm hay duong và in k?t qu? ki?m tra ra màn hình.
+  
+  #include<stdio.h>
+   
+  int main()
+  { int n;
+  	printf("\nnhap vao so n");
+  	scanf("%d",&n);
+  	
+  	if(n>0)
+  	{
+  		if(n%2==0) printf("la so duong chan");
+  		  else printf("la so duong le ");
+	  }
+	  else if(n==0){
+	  	printf("0 la so chan hay le");
+	  	
+	  }
+              else 
+			  {
+			  	if(n%2==0) printf("la so am chan");
+  		  else printf("la so am le ");
+					   } 	    
+ 
+	
+	return 0;
+  }
+  
